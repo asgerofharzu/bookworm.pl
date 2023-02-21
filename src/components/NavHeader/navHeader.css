@@ -1,4 +1,6 @@
-
+*{
+    box-sizing: border-box !important;
+}
 .link{
     
     font-weight: 400 !important;
@@ -10,25 +12,52 @@
 
 
 @media only screen and (min-width: 992px) {
-    .navs { margin-left: 70px; }
+    .navs { margin-left: 50px; }
     .logo { margin-left:130px !important; }
     .link { padding-left:38px !important;}
     .inputDiv{
-        margin-right: 300px;
+        margin-right: 500px;
     }
     
 }
 
+
 .input{
+    padding-left: 30px;
     width: 280px;
     border-radius: 25.85px;
     gap: 14px;
+    font-size: 13px;
     border-color: #0096FF;
     text-align: inside;
     caption-side: inherit;
-    
+    margin-right: 450px;
+
 }
 
 .nav-bar{
-    margin-top:35px;
+    margin-top:35px;    
 }
+
+.search-icon{
+    position: relative;
+    left: 29px;
+    color: #ADADAD;
+}
+
+.icon{
+    position: relative;
+    right: 390px;
+    color: #0A142F;
+}
+.basket{
+    right: 370px;
+}
+.user{
+    right:353px;
+}
+.down{
+    right:357px;
+    bottom: 6px;
+}
+
