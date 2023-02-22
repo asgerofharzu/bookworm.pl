@@ -8,6 +8,7 @@ class Main extends Component {
         return (
             <>
                 <Container>
+                <div>
                     <div className='text-1 text'>What book are
                     you looking for?</div>
                     <div className='text-3'>
@@ -15,6 +16,10 @@ class Main extends Component {
                     </div>
                     <button className='btn-main'> Go to catalog</button>
                     <img src={Img} alt="img" className="img" />
+                </div>
+                <div>
+                    <h1>salam</h1>
+                </div>
                 </Container>
             </>
         );
