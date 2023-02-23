@@ -12,8 +12,8 @@
 
 
 @media only screen and (min-width: 992px) {
-    .navs { margin-left: 50px; }
-    .logo { margin-left:130px !important; }
+    .navs { margin-left: 0px; }
+    .logo { margin-left:180px !important; }
     .link { padding-left:38px !important;}
     .inputDiv{
         margin-right: 500px;
@@ -31,7 +31,7 @@
     border-color: #0096FF;
     text-align: inside;
     caption-side: inherit;
-    margin-right: 450px;
+    margin-right: 300px;
 
 }
 
@@ -47,17 +47,18 @@
 
 .icon{
     position: relative;
-    right: 390px;
+    right: 260px;
     color: #0A142F;
 }
 .basket{
-    right: 370px;
+    right: 245px;
 }
 .user{
-    right:353px;
+    right:230px;
 }
 .down{
-    right:357px;
-    bottom: 6px;
+    /* position: absolute; */
+    right:230px;
+    color: #0096FF;    
 }
 

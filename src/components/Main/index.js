@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container';
 import "./main.css"
-import Img from './reading.png'
+import Img from './boy-n-girl.png'
 class Main extends Component {
     state = {  } 
     render() { 
         return (
             <>
-                <Container>
+                <Container className="a">
                 <div>
                     <div className='text-1 text'>What book are
                     you looking for?</div>
@@ -17,9 +17,11 @@ class Main extends Component {
                     <button className='btn-main'> Go to catalog</button>
                     <img src={Img} alt="img" className="img" />
                 </div>
-                <div>
-                    <h1>salam</h1>
-                </div>
+                </Container>
+                <Container>
+                    <div>
+                        salam
+                    </div>
                 </Container>
             </>
         );

@@ -3,7 +3,10 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Logo from '../Logo';
 import "./navHeader.css"
-import { BiSearch, BiBookHeart, BiBasket, BiUserCircle, BiChevronDown } from 'react-icons/bi'
+import { BiSearch, BiUserCircle, BiChevronDown } from 'react-icons/bi'
+import   {FaRegHeart} from "react-icons/fa";
+import   {BsBasket3} from "react-icons/bs";
+
 
 
 function NavHead() {
@@ -27,10 +30,10 @@ function NavHead() {
                 
 
                 <div className='icons'>
-                    <BiBookHeart size="1.6rem" className="icon" />
-                    <BiBasket size="1.6rem" className='icon basket' />
-                    <BiUserCircle size="1.6rem" className='icon user' />
-                    <BiChevronDown size="1.6rem" className='icon down'/>
+                    <FaRegHeart size="1.5rem" className="icon" />
+                    <BsBasket3 size="1.4rem" className='icon basket' />
+                    <BiUserCircle size="1.5rem" className='icon user' />
+                    <BiChevronDown size="1.1rem" className='icon down'/>
                 </div>
 
             </Container>
