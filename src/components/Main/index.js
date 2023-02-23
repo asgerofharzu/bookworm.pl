@@ -20,7 +20,7 @@ class Main extends Component {
                 </Container>
                 <Container>
                     <div>
-                        salam
+                        
                     </div>
                 </Container>
             </>

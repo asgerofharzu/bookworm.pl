@@ -49,6 +49,7 @@
     position: relative;
     right: 260px;
     color: #0A142F;
+    cursor: pointer;
 }
 .basket{
     right: 245px;
