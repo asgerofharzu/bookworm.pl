@@ -11,7 +11,7 @@ import   {BsBasket3} from "react-icons/bs";
 
 function NavHead() {
     return (
-        <Navbar className="nav-bar" bg="white" expand="lg">
+        <Navbar className="nav-bar" expand="lg">
             <Container fluid>
                 <Navbar.Brand href="#" className="logo"> <Logo /> </Navbar.Brand>
 

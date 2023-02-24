@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+.img-all{
+    width: 180px;
+    height: 269px;
+    flex: none;
+    order: 0;
+    flex-grow:0;
+}
+.bName{
+    width: 180px;
+    height: 46px;
+font-family:"DM sans";
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+color: #1E2046;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.texts{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #7A7E92;flex: none;
+line-height: 134.2%;
+order: 2;
+flex-grow: 0; 
+}
+.first-price{
+    color: #7A7E92;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    font-family: DM Sans;
+    line-height: 23px;
+    text-align: left;
+
+}
+.price{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1E2046;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+.cart-btn{
+    margin-top :15px !important;
+}
+
+.heart{
+    width: 32px;
+    border-radius: 5px;
+    height: 32px;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    left: 10px;
+    box-sizing: border-box;
+    background-color: #EBF7FF;
+    color:#0096FF ;
+    cursor: pointer;
+}
+.heart-icon{
+    position: relative;
+    top: 1px;
+    left: 6px;
+    font-size: 12px;
+}

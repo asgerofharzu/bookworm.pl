@@ -1,0 +1,42 @@
+.get-free{
+    width: 1181px;
+    height: 251px;
+    background-color: #0096FF;
+    justify-content: space-evenly;
+    display: flex;
+}
+.text-1{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #fff;
+    padding-top:60px
+}
+.text-2{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 134.2%;
+    color: #fff;
+}
+
+.btn-buy{
+    align-items: center;
+    gap: 11.93px;
+    color:#0096FF !important;
+    width: 106.15px;
+    height: 33px;
+}
+.btn-buy:hover{
+    color: #0096FF;;
+}
+
+.imgs{
+    width: 203px;
+    height: 270px;
+    position: relative;
+    top: 32px;
+}

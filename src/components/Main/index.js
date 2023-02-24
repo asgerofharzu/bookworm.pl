@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container';
-import "./main.css"
-import Img from './boy-n-girl.png'
+import "./main.css";
+import Img from './img/boy-n-girl.png';
+import {AiOutlineArrowRight} from "react-icons/ai";
+import Trending from './Trending'
+import Bestseller from './Bestseller'
+import GetFree from './GetFree/GetFree';
 class Main extends Component {
     state = {  } 
     render() { 
         return (
             <>
-                <Container className="a">
+                <Container className="main-1">
                 <div>
                     <div className='text-1 text'>What book are
                     you looking for?</div>
@@ -18,11 +22,28 @@ class Main extends Component {
                     <img src={Img} alt="img" className="img" />
                 </div>
                 </Container>
-                <Container>
-                    <div>
-                        
+
+
+                <Container className="main-2">
+                    <div className='trend'>Trending <span className='arrow'> <AiOutlineArrowRight/> </span> </div> 
+                        <div className='card-main'>
+                            <Trending/>
+                        </div>
+                </Container>
+                
+                <Container className="main-3">
+                    <div className='bestseller'> 
+                        Bestseller <span className='arrow'> <AiOutlineArrowRight/> </span> 
+                    </div> 
+                    <div className='card-main'>
+                        <Bestseller/>
                     </div>
                 </Container>
+
+                <Container className="main-4">
+                    <GetFree/>
+                </Container>
+                
             </>
         );
     }
