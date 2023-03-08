@@ -13,6 +13,7 @@ class GetFree extends Component {
                         <p className="text-2">Newest release</p>
                         <button className="btn btn-primary btn-buy bg-white">Buy now</button>
                     </div>
+                    
                     <div className="img-1 imgs">
                         <img src={Img1} alt="..." />
                     </div>

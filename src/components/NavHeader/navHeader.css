@@ -12,8 +12,10 @@
 
 
 @media only screen and (min-width: 992px) {
-    .navs { margin-left: 0px; }
-    .logo { margin-left:180px !important; }
+
+    .logo { 
+        margin-left:195px !important; 
+        display: inline-block; }
     .link { padding-left:38px !important;}
     .inputDiv{
         margin-right: 500px;
@@ -31,7 +33,7 @@
     border-color: #0096FF;
     text-align: inside;
     caption-side: inherit;
-    margin-right: 300px;
+    margin-right: 240px;
 
 }
 
@@ -47,19 +49,23 @@
 
 .icon{
     position: relative;
-    right: 260px;
+    right: 190px;
+    /* top: 0px; */
     color: #0A142F;
     cursor: pointer;
 }
 .basket{
-    right: 245px;
+    right: 180px;
+    /* top: 8px; */
 }
 .user{
-    right:230px;
+    right:170px;
+    /* top: 10px; */
 }
 .down{
     /* position: absolute; */
-    right:230px;
+    right:170px;
+    /* top: -20px; */
     color: #0096FF;    
 }
 

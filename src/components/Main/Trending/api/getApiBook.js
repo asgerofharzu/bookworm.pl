@@ -22,7 +22,8 @@ let dataAPIbook = [
         img_URL: "https://npr.brightspotcdn.com/53/cf/a747569c493b96b8bb948668a5d1/all-the-dangerous-things.jpg",
         publisher: "Stacy Willingham",
         publisherYear: "2023",
-        price: "$26.99"
+        price: "$26.99",
+        firstPrice:"$13.59"
     },
     
 

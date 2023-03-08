@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .get-free{
     width: 1181px;
     height: 251px;
@@ -31,7 +34,7 @@
     height: 33px;
 }
 .btn-buy:hover{
-    color: #0096FF;;
+    color: #0096FF;
 }
 
 .imgs{
@@ -39,4 +42,7 @@
     height: 270px;
     position: relative;
     top: 32px;
+}
+.img-2{
+    right:80px
 }
